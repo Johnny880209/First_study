@@ -69,6 +69,7 @@ function reset() {
   userInput.value = "";
   playBtn.disabled = false;
   chances = 5;
+  chanceArea.textContent = `${chances}회 남았습니다!`;
 }
 
 function gameOver() {
