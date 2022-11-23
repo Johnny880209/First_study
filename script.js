@@ -68,6 +68,7 @@ function reset() {
   resultArea.textContent = "결과가 나온다.";
   userInput.value = "";
   playBtn.disabled = false;
+  chances = 5;
 }
 
 function gameOver() {
